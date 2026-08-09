@@ -1,8 +1,8 @@
 # Publishing screenshots for PR descriptions
 
-This repo hosts screenshots (and other media) so they can be embedded in
-GitHub PR descriptions, PR comments, and issues for episode6/ghackett
-repos. GitHub's CLI/API can't attach images directly to a PR body, so
+This repo hosts screenshots, GIFs, videos, and screen recordings so they
+can be shared in GitHub PR descriptions, PR comments, and issues for
+episode6/ghackett repos. GitHub's CLI/API can't attach images directly to a PR body, so
 files are pushed here and embedded with `media.githubusercontent.com`
 URLs.
 
@@ -65,8 +65,9 @@ Notes:
   fine), but GitHub markdown won't render a video by URL — only videos
   uploaded through GitHub's own attachment CDN render inline. So a video
   pushed here can only be **linked** from a PR, not embedded. If inline
-  playback matters, surface the file to the user to drag-drop into the PR
-  instead.
+  playback matters, convert the recording to an animated GIF (renders
+  inline like any image) or surface the file to the user to drag-drop
+  into the PR instead.
 
 ## Embed in the PR description or comment
 
